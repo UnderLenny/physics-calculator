@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="calc_speed" id="calc_speed">
+        <h2>Расчет скорости</h2>
+        <p>Выберите еденицу измерения:</p>
+        <div class="custom_selection">
+          <select name="speed_measurement" id="speed_measurement">
+            <option value="cm/sec" class="option">см/сек</option>
+            <option value="m/sec" class="option">м/сек</option>
+            <option value="m/min" class="option">м/мин</option>
+            <option value="km/min" class="option">км/мин</option>
+            <option value="km/hr" class="option">км/час</option>
+          </select>
+        </div>
+        <p>Растояние:</p>
+        <input type="text" class="distance_for_speed"></input>
+
+        <p>Время:</p>
+        <input type="text" class="speed_time"></input>
+        <br>
+        <br>
+        <button class="btn_speed">Calculate Speed</button>
+        <br>
+        <p class="speed_result">Speed:</p>
+      </div>
+</body>
+</html>
