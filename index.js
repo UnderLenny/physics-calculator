@@ -5,7 +5,7 @@ document.getElementsByClassName('btn_speed')[0].addEventListener('click', () => 
     if (isNaN(distanceForSpeed)) {
         alert('Введите число в поле "Расстояние"');
     } else if (isNaN(speedTime)) {
-        alert('Введите число в поле "Время"');
+        alert('Введите число в поле "Время".');
     } else {
         let speedMeasurementSelect = document.getElementById('speed_measurement');
         let speedMeasurementSystem = speedMeasurementSelect.selectedIndex;
